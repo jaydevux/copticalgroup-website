@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*margin { 
+  padding:0;
+  margin:0;
+  font-family:Helvetica, san-serif;
+ -webkit-text-size-adjust:none;
+}
+
+#container {
+	width:320;
+	height:480;
+	background-image:url(../images/gbk.png);
+}
+
+#header {
+	text-align:center;
+	
+}
+
+#header2 {
+	text-align:center;
+	margin-bottom:10px;
+	
+}
+
+#nav {
+	margin: 25px auto;
+	text-align:left;
+	width:191;
+}
+
+#nav img { text-align:center; }
+
+
+
+#footer {
+	text-align:center;
+	width:319;
+	background-image:url(images/footer.png);
+}

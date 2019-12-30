@@ -1,0 +1,102 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+html{color:#fff;background:url(images/gbk.png);}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0; padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0; margin:0; padding:0; background-color:#104c2a;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;} 
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+img {background-color:#104c2a;}
+
+h1{
+	color:#fff;
+	font-size:24px;
+	text-align:center;
+}
+h2{
+	font-size:24px;
+	color:#fff;
+	background-color:#104c2a;
+}
+h3{
+	font-size:12px;
+	margin-top:15px;
+	color:#666;
+}
+
+h4{
+	color:#000;
+	font-size:16px;
+	text-align:left;
+	background-image:url(images/backg.jpg);
+	padding:5px;
+}
+
+
+p{
+	margin-bottom:9px;
+
+}
+a{
+	color:inherit;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+
+/*
+	Some "Mobile" styles
+	And other general styles
+*/
+
+.not-there{
+	display:none;
+}
+.head{
+	background:#104c2a;
+	padding: 10px 0 5px;
+	height:80px;
+}
+.entries p{
+	display:none;
+	padding:10px;
+	
+	
+}
+.entries p.preview{
+	display:block;
+	background-color:#FFF;
+	color:#000;
+}
+
+
+.foot{
+	margin:10px 0 0 0;
+	padding:10px 10px 10px 10px;
+	border-top:solid 1px #999;
+	background:#104c2a;
+	color:#fff;
+}
+.pg-main{
+	padding: 0 10px 0 10px;
+	
+}
+.bold {
+	font-weight: bold;
+}
